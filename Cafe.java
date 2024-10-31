@@ -1,4 +1,6 @@
-
+/**
+ * This class represents a cafe that sells coffee.
+ */
 public class Cafe extends Building {
 
     private int nCoffeeOunces;
