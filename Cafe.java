@@ -49,10 +49,11 @@ public class Cafe extends Building {
 
     /**
      * Restocked the ingredients when called.
-     * @param size size of the coffee in ounces.
-     * @param nSugarPackets number of sugarpackets that need to restock.
-     * @param nCreams Number of creams the drink that need to restock.
-     * @param nCups Number of cups that need to restock.
+     * 
+     * @param nCoffeeOunces Number of coffee ounces to restock.
+     * @param nSugarPackets Number of sugar packets to restock.
+     * @param nCreams Number of creams to restock.
+     * @param nCups Number of cups to restock.
      */
     private void restock(int nCoffeeOunces, int nSugarPackets, int nCreams, int nCups) {
         this.nCoffeeOunces = nCoffeeOunces;
