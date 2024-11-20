@@ -29,7 +29,7 @@ public class Cafe extends Building {
 
     /**
      * Sells a coffee with their size of coffee, sugarpackets and creams that it needs.
-     *If the stuff needed is available, it will make a coffee. If they are not available, it will restock all the ingredients.
+     * If the stuff needed is available, it will make a coffee. If they are not available, it will restock all the ingredients.
      * @param size size of the coffee in ounces.
      * @param nSugarPackets number of sugarpackets the drink requires.
      * @param nCreams Number of creams the drink requires.

@@ -15,7 +15,7 @@ public class House extends Building {
      * @param name Name of the house
      * @param address Address of the house
      * @para nFloors FLoors number in the house
-     * @hasDiningRoom Whether the house has dining room, if it has, it is true, if it has not,  it is false.
+     * @para hasDiningRoom Whether the house has dining room, if it has, it is true, if it has not,  it is false.
      */
     public House(String name, String address, int nFloors, boolean hasDiningRoom) {
         super(name, address, nFloors);
